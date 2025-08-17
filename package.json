@@ -1,0 +1,11 @@
+{
+  "name": "house-contacts",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/fetch-house-contacts.mjs"
+  },
+  "dependencies": {
+    "yaml": "^2.4.2"
+  }
+}
