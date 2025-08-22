@@ -21,7 +21,41 @@ This change adds a script and workflow to generate a single JSON file with conta
    ```
 4. The JSON will be written to `data/house-contacts.json`.
 
-### JSON structure
+## Texas Settlements Dataset
+
+A comprehensive dataset of Texas settlements including incorporated places, Census Designated Places (CDPs), and unincorporated communities with 2020 population data.
+
+- Output: `data/texas.csv`
+- Sources: 2020 U.S. Decennial Census, Geographic Names Information System (GNIS)
+- Schema: `name,population,type,source_year`
+
+### How to generate locally
+
+```bash
+# Generate the Texas settlements CSV
+npm run build:texas
+
+# Validate the CSV format and data integrity
+npm run validate:texas
+```
+
+### Data Coverage
+
+- **Phase 1**: Incorporated places and CDPs with 2020 Census population figures
+  - Cities, towns, villages: Official incorporated places
+  - CDPs: Census Designated Places (unincorporated but Census-tracked)
+  - All entries include population and `source_year: 2020`
+
+- **Phase 2**: Unincorporated communities from GNIS
+  - Historical entries excluded
+  - Variant names deduplicated
+  - Population left blank where no official figure exists
+
+### Contributing
+
+See [`docs/CONTRIBUTING-texas.md`](docs/CONTRIBUTING-texas.md) for detailed conventions on updating the Texas settlements data.
+
+## JSON structure (House Contacts)
 
 ```json
 {
