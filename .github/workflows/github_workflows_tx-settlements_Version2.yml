@@ -1,0 +1,82 @@
+name: Update Texas settlements
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - '**/*.csv'
+      - 'scripts/**'
+      - '.github/workflows/tx-settlements.yml'
+      - 'package.json'
+      - 'package-lock.json'
+  schedule:
+    - cron: "0 6 * * 1" # Mondays at 06:00 UTC
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: tx-settlements
+  cancel-in-progress: false
+
+jobs:
+  update-texas-settlements:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch latest Texas settlements
+        run: node scripts/fetch-texas-settlements.mjs
+        env:
+          # Optional, improves Census API rate limits if your script uses it
+          CENSUS_API_KEY: ${{ secrets.CENSUS_API_KEY }}
+
+      - name: Build dataset
+        run: npm run build:texas
+
+      - name: Validate dataset
+        run: npm run validate:texas
+
+      - name: Create PR with changes
+        id: cpr
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "chore(tx): update Texas settlements dataset"
+          title: "Automated update: Texas settlements"
+          body: |
+            Automated update of the Texas settlements dataset using Census and GNIS sources.
+            - Built with: npm run build:texas
+            - Validated with: npm run validate:texas
+          branch: "bot/tx-settlements-update"
+          labels: "data, automated"
+          draft: false
+          signoff: false
+          delete-branch: true
+          add-paths: |
+            **/*.csv
+            data/**/*
+            scripts/**/*
+            README.md
+
+      - name: Enable auto-merge when green
+        if: steps.cpr.outputs.pull-request-number != ''
+        uses: peter-evans/enable-pull-request-automerge@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
+          merge-method: squash
