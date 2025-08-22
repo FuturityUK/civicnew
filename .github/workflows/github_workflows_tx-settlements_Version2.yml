@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main
+      - copilot/fix-d460b3cd-a161-4b63-908a-b3d6b7960e56
     paths:
       - '**/*.csv'
       - 'scripts/**'
