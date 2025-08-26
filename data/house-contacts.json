@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-25T05:35:40.364Z",
+  "last_updated": "2025-08-26T05:34:39.996Z",
   "source": "https://github.com/unitedstates/congress-legislators",
   "members": [
     {
@@ -1204,7 +1204,19 @@
           "phone": "202-225-4065",
           "fax": null
         },
-        "district_offices": [],
+        "district_offices": [
+          {
+            "address": "3770 N 7th St",
+            "city": "Phoenix",
+            "state": "AZ",
+            "zip": "85014",
+            "phone": "602-956-2285",
+            "fax": null,
+            "latitude": 33.491056939891365,
+            "longitude": -112.06524607862144,
+            "suite": "100b"
+          }
+        ],
         "contact_form": null,
         "website": "https://ansari.house.gov"
       },
@@ -1942,8 +1954,8 @@
             "zip": "95762",
             "phone": "916-786-5560",
             "fax": null,
-            "latitude": null,
-            "longitude": null,
+            "latitude": 38.6511457,
+            "longitude": -121.0659062,
             "suite": "Suite 210"
           }
         ],
@@ -4707,7 +4719,19 @@
           "phone": "202-225-2415",
           "fax": null
         },
-        "district_offices": [],
+        "district_offices": [
+          {
+            "address": "6803 International Ave.",
+            "city": "Cypress",
+            "state": "CA",
+            "zip": "90630",
+            "phone": "714-960-6483",
+            "fax": null,
+            "latitude": 33.8049611,
+            "longitude": -118.0145416,
+            "suite": 100
+          }
+        ],
         "contact_form": null,
         "website": "https://tran.house.gov"
       },
@@ -5120,15 +5144,15 @@
         },
         "district_offices": [
           {
-            "address": null,
-            "city": null,
-            "state": null,
+            "address": "3465 Camino del Rio S",
+            "city": "San Diego",
+            "state": "CA",
             "zip": null,
             "phone": "619-280-5353",
             "fax": "619-280-5311",
             "latitude": 32.8324882,
             "longitude": -117.1234039,
-            "suite": null
+            "suite": 350
           }
         ],
         "contact_form": null,
@@ -6288,7 +6312,30 @@
           "phone": "202-225-4136",
           "fax": null
         },
-        "district_offices": [],
+        "district_offices": [
+          {
+            "address": "805 E. James Lee Blvd.",
+            "city": "Crestview",
+            "state": "FL",
+            "zip": "32539",
+            "phone": "850-603-6690",
+            "fax": null,
+            "latitude": 30.7619635,
+            "longitude": -86.56192159999999,
+            "suite": null
+          },
+          {
+            "address": "1000 College Boulevard",
+            "city": "Pensacola",
+            "state": "FL",
+            "zip": "32504",
+            "phone": "850-479-1183",
+            "fax": null,
+            "latitude": 30.47862319999999,
+            "longitude": -87.2024593,
+            "suite": "Building 20, Room 2030"
+          }
+        ],
         "contact_form": "https://patronis.house.gov/contact/email-me",
         "website": "https://patronis.house.gov"
       },
@@ -6624,7 +6671,30 @@
           "phone": "202-225-2706",
           "fax": null
         },
-        "district_offices": [],
+        "district_offices": [
+          {
+            "address": "31 Lupi Court",
+            "city": "Palm Coast",
+            "state": "FL",
+            "zip": "32137-4761",
+            "phone": "386-302-0442",
+            "fax": "386-283-5164",
+            "latitude": 29.5549017,
+            "longitude": -81.2341902,
+            "suite": "Suite 130"
+          },
+          {
+            "address": "120 S. Florida Ave.",
+            "city": "Deland",
+            "state": "FL",
+            "zip": "32720-5422",
+            "phone": "386-279-0707",
+            "fax": "386-279-0874",
+            "latitude": 29.0278849,
+            "longitude": -81.30618919999999,
+            "suite": null
+          }
+        ],
         "contact_form": "hhttps://fine.house.gov/address_authentication?form=/contact/email-me",
         "website": "https://fine.house.gov"
       },
@@ -9879,8 +9949,8 @@
             "zip": "83814",
             "phone": "208-667-0127",
             "fax": "208-667-0310",
-            "latitude": null,
-            "longitude": null,
+            "latitude": 47.6967907,
+            "longitude": -116.8040665,
             "suite": "Suite 200"
           }
         ],
@@ -15592,7 +15662,19 @@
           "phone": "202-225-2871",
           "fax": null
         },
-        "district_offices": [],
+        "district_offices": [
+          {
+            "address": "3033 Campus Dr.",
+            "city": "Plymouth",
+            "state": "MN",
+            "zip": "55441",
+            "phone": "952-656-5176",
+            "fax": null,
+            "latitude": 45.0153361,
+            "longitude": -93.4546105,
+            "suite": "W105"
+          }
+        ],
         "contact_form": null,
         "website": "https://morrison.house.gov"
       },
@@ -16660,7 +16742,41 @@
           "phone": "202-225-2646",
           "fax": null
         },
-        "district_offices": [],
+        "district_offices": [
+          {
+            "address": "P.O. Box 504879",
+            "city": "Saipan",
+            "state": "MP",
+            "zip": "96950",
+            "phone": "670-323-2647",
+            "fax": "670-323-2649",
+            "latitude": null,
+            "longitude": null,
+            "suite": null
+          },
+          {
+            "address": "P.O. Box 520394",
+            "city": "Tinian",
+            "state": "MP",
+            "zip": "96952",
+            "phone": "670-433-2647",
+            "fax": "670-433-2648",
+            "latitude": null,
+            "longitude": null,
+            "suite": null
+          },
+          {
+            "address": "P.O. Box 1361",
+            "city": "Rota",
+            "state": "MP",
+            "zip": "96951",
+            "phone": "670-532-2647",
+            "fax": "670-532-2649",
+            "latitude": null,
+            "longitude": null,
+            "suite": null
+          }
+        ],
         "contact_form": null,
         "website": "https://king-hinds.house.gov"
       },
@@ -16774,8 +16890,8 @@
             "zip": "38844",
             "phone": "662-687-1525",
             "fax": null,
-            "latitude": null,
-            "longitude": null,
+            "latitude": 34.9311171,
+            "longitude": -88.4576292,
             "suite": null
           }
         ],
@@ -17298,7 +17414,41 @@
           "phone": "202-225-3101",
           "fax": null
         },
-        "district_offices": [],
+        "district_offices": [
+          {
+            "address": "306 E. Colonial Ave",
+            "city": "Elizabeth City",
+            "state": "NC",
+            "zip": "27809",
+            "phone": "252-999-7600",
+            "fax": null,
+            "latitude": 36.30107979977425,
+            "longitude": -76.22130776002555,
+            "suite": null
+          },
+          {
+            "address": "1151 Falls Road",
+            "city": "Rocky Mount",
+            "state": "NC",
+            "zip": "27804",
+            "phone": "252-999-7600",
+            "fax": null,
+            "latitude": 35.959351372292204,
+            "longitude": -77.80114151564116,
+            "suite": 2002
+          },
+          {
+            "address": "2803 Cashwell Drive",
+            "city": "Goldsboro",
+            "state": "NC",
+            "zip": "27534",
+            "phone": "252-999-7600",
+            "fax": null,
+            "latitude": 35.376925620996445,
+            "longitude": -77.94742613044136,
+            "suite": "B"
+          }
+        ],
         "contact_form": null,
         "website": "https://dondavis.house.gov"
       },
@@ -17645,7 +17795,19 @@
           "phone": "202-225-3065",
           "fax": null
         },
-        "district_offices": [],
+        "district_offices": [
+          {
+            "address": "30 E. 1st Ave",
+            "city": "Lexington",
+            "state": "NC",
+            "zip": "27292",
+            "phone": "336-333-5005",
+            "fax": null,
+            "latitude": 35.8230105,
+            "longitude": -80.25303939999999,
+            "suite": null
+          }
+        ],
         "contact_form": null,
         "website": "https://mcdowell.house.gov"
       },
@@ -18107,7 +18269,19 @@
           "phone": "202-225-4531",
           "fax": null
         },
-        "district_offices": [],
+        "district_offices": [
+          {
+            "address": "12450 Cleveland Road",
+            "city": "Garner",
+            "state": "NC",
+            "zip": "27529",
+            "phone": "984-275-6150",
+            "fax": "984-275-6150",
+            "latitude": 35.6025316,
+            "longitude": -78.5694802,
+            "suite": "203"
+          }
+        ],
         "contact_form": null,
         "website": "https://knott.house.gov"
       },
@@ -18824,7 +18998,19 @@
           "phone": "202-225-4765",
           "fax": null
         },
-        "district_offices": [],
+        "district_offices": [
+          {
+            "address": "4573 S Broad Street",
+            "city": "Trenton",
+            "state": "NJ",
+            "zip": "08620",
+            "phone": "609-438-6290",
+            "fax": null,
+            "latitude": 40.17897719245051,
+            "longitude": -74.67150589475895,
+            "suite": null
+          }
+        ],
         "contact_form": null,
         "website": "https://conaway.house.gov"
       },
@@ -25301,7 +25487,19 @@
           "phone": "202-225-2615",
           "fax": null
         },
-        "district_offices": [],
+        "district_offices": [
+          {
+            "address": "Centro de Bellas Artes, Calle Padial, esquina Calle Ruiz Belvis",
+            "city": "Caguas",
+            "state": "PR",
+            "zip": "00725",
+            "phone": "787-230-7959",
+            "fax": null,
+            "latitude": 18.235596158558387,
+            "longitude": -66.0364996227024,
+            "suite": null
+          }
+        ],
         "contact_form": null,
         "website": "https://hernandez.house.gov"
       },
