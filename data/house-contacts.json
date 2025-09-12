@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-11T05:32:06.062Z",
+  "last_updated": "2025-09-12T05:32:13.015Z",
   "source": "https://github.com/unitedstates/congress-legislators",
   "members": [
     {
@@ -30727,6 +30727,57 @@
         "youtube": null,
         "youtube_id": null,
         "instagram": "repsuhas",
+        "mastodon": null,
+        "threads": null
+      }
+    },
+    {
+      "id": {
+        "bioguide": "W000831",
+        "govtrack": 457036,
+        "opensecrets": null,
+        "fec": [
+          "H6VA11066"
+        ],
+        "thomas": null,
+        "cspan": null,
+        "wikipedia": "James Walkinshaw",
+        "wikidata": "Q135132001"
+      },
+      "name": {
+        "official_full": "James R. Walkinshaw",
+        "first": "James",
+        "last": "Walkinshaw",
+        "middle": "R.",
+        "nickname": null,
+        "suffix": null
+      },
+      "party": "Democrat",
+      "state": "VA",
+      "district": 11,
+      "role": "Representative",
+      "term": {
+        "start": "2025-09-10",
+        "end": "2027-01-03"
+      },
+      "contact": {
+        "capitol_office": {
+          "office": "2265 Rayburn House Office Building",
+          "address": "2265 Rayburn House Office Building Washington DC 20515-4611",
+          "phone": "202-225-1492",
+          "fax": null
+        },
+        "district_offices": [],
+        "contact_form": null,
+        "website": null
+      },
+      "social": {
+        "twitter": null,
+        "twitter_id": null,
+        "facebook": null,
+        "youtube": null,
+        "youtube_id": null,
+        "instagram": null,
         "mastodon": null,
         "threads": null
       }
