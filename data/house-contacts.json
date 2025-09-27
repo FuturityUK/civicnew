@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-26T05:32:24.187Z",
+  "last_updated": "2025-09-27T05:30:29.497Z",
   "source": "https://github.com/unitedstates/congress-legislators",
   "members": [
     {
@@ -3741,7 +3741,8 @@
         "govtrack": 412757,
         "opensecrets": "N00041464",
         "fec": [
-          "H8CA39174"
+          "H8CA39174",
+          "H4CA31170"
         ],
         "thomas": null,
         "cspan": null,
@@ -13127,7 +13128,9 @@
         "bioguide": "F000110",
         "govtrack": 404067,
         "opensecrets": "N00005398",
-        "fec": [],
+        "fec": [
+          "H4LA06211"
+        ],
         "thomas": "00379",
         "cspan": null,
         "wikipedia": "Cleo Fields",
@@ -16202,7 +16205,8 @@
         "govtrack": 456998,
         "opensecrets": "N00030025",
         "fec": [
-          "H8MO09146"
+          "H8MO09146",
+          "H4MO03221"
         ],
         "thomas": null,
         "cspan": null,
@@ -17913,7 +17917,8 @@
         "govtrack": 457002,
         "opensecrets": "N00035491",
         "fec": [
-          "H6NC09200"
+          "H6NC09200",
+          "H4NC08066"
         ],
         "thomas": null,
         "cspan": null,
@@ -30315,7 +30320,8 @@
         "govtrack": 457026,
         "opensecrets": "N00045930",
         "fec": [
-          "H4VA05071"
+          "H2VA07196",
+          "H0VA07133"
         ],
         "thomas": null,
         "cspan": null,
